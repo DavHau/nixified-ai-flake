@@ -23,7 +23,7 @@ package management and complexity issues.
 - Built from source
   - Each AI project in the repository is built from source, along with all of its input dependencies, ensuring that the code is reproducible and can be trusted. Nix allows advanced users to customize and modify the build process at any granularity if desired.
 - Cached
-  - Thanks to a Nix concept called "Binary Substitution", any `nix` command ran by the user will not need to be built from source unless they have made modifications to the source code. This is because when code is built by our CI [(Hercules CI)](https://hercules-ci.com), it is pushed to cachix.org, where it can be pulled by any `nix` client like a traditional binary distribution. If this infrastructure were to disappear however, the user could still reproduce everything locally thanks to Nix.
+  - Thanks to a Nix concept called "Binary Substitution", any `nix` command ran by the user will not need to be built from source unless they have made modifications to the source code. This is because when code is built by our CI [(Hercules CI)](https://hercules-ci.com), it is pushed to [cachix.org](https://cachix.org), where it can be pulled by any `nix` client like a traditional binary distribution. If this infrastructure were to disappear however, the user could still reproduce everything locally thanks to Nix.
 - Easy to run
   - Users can install and run AI executable code from the nixified.ai repository using a single `nix` command, on any distribution of Linux, and even Windows by using the Nix package manager.
 - Support for NVIDIA and AMD GPUs
