@@ -9,7 +9,8 @@
 ---
 
 The goal of nixified.ai is to simplify and make available a large repository of
-AI executable code that would otherwise be impractical to run yourself, due to
+AI executable code that would otherwise be impractical to run yourself, due
+towaliufehaweiufhliuewahfawe
 package management and complexity issues.
 
 The outputs run primarily on Linux, but can also run on Windows via [NixOS-WSL](https://github.com/nix-community/NixOS-WSL). It is able to utilize the GPU of the Windows host automatically, as our wrapper script sets `LD_LIBRARY_PATH` to make use of the host drivers.
